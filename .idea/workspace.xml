@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58c34fd4-3e0c-4ca2-bcee-007bf87f9046" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Console/RollbackUpdateUsersTableCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Console/UpdateUsersTableCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20200419182539.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0862617d-ad53-4a77-8e18-9f5d11f4bbb3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0862617d-ad53-4a77-8e18-9f5d11f4bbb3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0862617d-ad53-4a77-8e18-9f5d11f4bbb3/storage_v2/_src_/database/helpcrunch_db.L6o8Jg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0862617d-ad53-4a77-8e18-9f5d11f4bbb3/storage_v2/_src_/database/helpcrunch_db.L6o8Jg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/php-fpm/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/php-fpm/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/docker/php-fpm/php.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/user.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/config/doctrine/User.orm.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +126,7 @@
       <updated>1587239746882</updated>
       <workItem from="1587239749154" duration="6091000" />
       <workItem from="1587287272709" duration="16439000" />
-      <workItem from="1587373249259" duration="14604000" />
+      <workItem from="1587373249259" duration="15385000" />
     </task>
     <servers />
   </component>
