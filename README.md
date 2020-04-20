@@ -1,6 +1,6 @@
 - Load the project to your local machine:
 ```
-~ git clone git@github.com:alexandr-shevchenko/hc.git
+~ git clone https://github.com/alexandr-shevchenko/hc.git
 ```
 
 - Create and start services by docker-compose:
