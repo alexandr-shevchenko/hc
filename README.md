@@ -33,3 +33,9 @@
 ```
 ~ docker exec helpcrunch_app.php-fpm php bin/console app:user:rollback
 ```
+
+to connect to local db use this credentials:
+host: localhost
+user: developer
+pass: password
+port: 5432
