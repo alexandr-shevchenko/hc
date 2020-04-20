@@ -14,6 +14,8 @@ RUN rm -rf /var/cache/apk/* \
     && find / -type f -iname \*.apk-new -delete \
     && rm -rf /var/cache/apk/*
 
+ADD php.ini /usr/local/etc/php/php.ini
+
 EXPOSE 9000
 
 CMD ["php-fpm"]

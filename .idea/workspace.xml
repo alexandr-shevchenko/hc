@@ -2,25 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58c34fd4-3e0c-4ca2-bcee-007bf87f9046" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/hc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/nginx/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/nginx/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/php-fpm/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/postgres/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Console/RollbackUpdateUsersTableCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Console/UpdateUsersTableCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20200419182539.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0862617d-ad53-4a77-8e18-9f5d11f4bbb3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0862617d-ad53-4a77-8e18-9f5d11f4bbb3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0862617d-ad53-4a77-8e18-9f5d11f4bbb3/storage_v2/_src_/database/helpcrunch_db.L6o8Jg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0862617d-ad53-4a77-8e18-9f5d11f4bbb3/storage_v2/_src_/database/helpcrunch_db.L6o8Jg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/php-fpm/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/php-fpm/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/docker/php-fpm/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/user.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Migrations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/config/doctrine/User.orm.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +28,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -90,10 +90,29 @@
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
       <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid-doctrine" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/hautelook/alice-bundle" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/nelmio/alice" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/theofidry/alice-data-fixtures" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ajCiuTXzbSvnEk5Hd0bTHcXeYP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -111,6 +130,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -123,7 +143,8 @@
       <option name="presentableId" value="Default" />
       <updated>1587239746882</updated>
       <workItem from="1587239749154" duration="6091000" />
-      <workItem from="1587287272709" duration="1710000" />
+      <workItem from="1587287272709" duration="16439000" />
+      <workItem from="1587373249259" duration="14604000" />
     </task>
     <servers />
   </component>
@@ -139,6 +160,61 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="452" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587289190510" />
+    <state x="643" y="-1128" key="#com.intellij.ide.util.MemberChooser" timestamp="1587377432589">
+      <screen x="-337" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="643" y="-1128" key="#com.intellij.ide.util.MemberChooser/-337.-1417.2560.1417/0.23.1680.969@-337.-1417.2560.1417" timestamp="1587377432589" />
+    <state x="643" y="214" key="#com.intellij.ide.util.MemberChooser/-337.-1440.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1587323545584" />
+    <state x="119" y="-1394" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587386994059">
+      <screen x="-337" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="119" y="-1394" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-337.-1417.2560.1417/0.23.1680.969@-337.-1417.2560.1417" timestamp="1587386994059" />
+    <state x="544" y="-1047" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1587389907041">
+      <screen x="-337" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="544" y="-1030" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-337.-1417.2560.1417/0.23.1680.969@-337.-1417.2560.1417" timestamp="1587377425360" />
+    <state x="544" y="-1047" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-337.-1440.2560.1440/0.0.1680.1050@-337.-1440.2560.1440" timestamp="1587389907041" />
+    <state x="578" y="287" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-337.-1440.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1587318175442" />
+    <state x="533" y="-1127" key="CommitChangelistDialog2" timestamp="1587388403860">
+      <screen x="-337" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="533" y="-1127" key="CommitChangelistDialog2/-337.-1417.2560.1417/0.23.1680.969@-337.-1417.2560.1417" timestamp="1587388403860" />
+    <state x="533" y="-1145" key="CommitChangelistDialog2/-337.-1440.2560.1440/0.0.1680.1050@-337.-1440.2560.1440" timestamp="1587388260087" />
+    <state width="1501" height="354" key="GridCell.Tab.0.bottom" timestamp="1587388661825">
+      <screen x="-337" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1501" height="354" key="GridCell.Tab.0.bottom/-337.-1440.2560.1440/0.0.1680.1050@-337.-1440.2560.1440" timestamp="1587388661825" />
+    <state width="1501" height="354" key="GridCell.Tab.0.center" timestamp="1587388661824">
+      <screen x="-337" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1501" height="354" key="GridCell.Tab.0.center/-337.-1440.2560.1440/0.0.1680.1050@-337.-1440.2560.1440" timestamp="1587388661824" />
+    <state width="1501" height="354" key="GridCell.Tab.0.left" timestamp="1587388661823">
+      <screen x="-337" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1501" height="354" key="GridCell.Tab.0.left/-337.-1440.2560.1440/0.0.1680.1050@-337.-1440.2560.1440" timestamp="1587388661823" />
+    <state width="1501" height="354" key="GridCell.Tab.0.right" timestamp="1587388661824">
+      <screen x="-337" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1501" height="354" key="GridCell.Tab.0.right/-337.-1440.2560.1440/0.0.1680.1050@-337.-1440.2560.1440" timestamp="1587388661824" />
+    <state x="582" y="-1041" key="NewPhpClassDialog" timestamp="1587389868233">
+      <screen x="-337" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="582" y="-1041" key="NewPhpClassDialog/-337.-1417.2560.1417/0.23.1680.969@-337.-1417.2560.1417" timestamp="1587377390466" />
+    <state x="582" y="-1041" key="NewPhpClassDialog/-337.-1440.2560.1440/0.0.1680.1050@-337.-1440.2560.1440" timestamp="1587389868233" />
+    <state x="603" y="291" key="NewPhpClassDialog/-337.-1440.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1587323531717" />
+    <state x="689" y="333" key="NewPhpClassDialog/-337.-1440.2560.1440/0.0.1920.1200@0.0.1920.1200" timestamp="1587317707913" />
+    <state x="914" y="-790" key="NewPhpFileDialog" timestamp="1587389004646">
+      <screen x="-337" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="914" y="-790" key="NewPhpFileDialog/-337.-1440.2560.1440/0.0.1680.1050@-337.-1440.2560.1440" timestamp="1587389004646" />
+    <state x="977" y="-828" width="323" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1587384994216">
+      <screen x="-337" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="977" y="-828" width="323" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/-337.-1417.2560.1417/0.23.1680.969@-337.-1417.2560.1417" timestamp="1587384994216" />
+    <state x="961" y="-828" width="311" height="216" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog" timestamp="1587384938398">
+      <screen x="-337" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="961" y="-828" width="311" height="216" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog/-337.-1417.2560.1417/0.23.1680.969@-337.-1417.2560.1417" timestamp="1587384938398" />
     <state x="540" y="282" width="600" height="518" key="find.popup" timestamp="1587288131722">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

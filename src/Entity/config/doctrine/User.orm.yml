@@ -1,0 +1,18 @@
+App\Entity\User:
+  type: entity
+  table: users
+  id:
+    id:
+      type: uuid
+      unique: true
+  fields:
+    name:
+      type: string
+      length: 255
+    dateOfBirth:
+      type: datetime
+    email:
+      type: string
+      unique: true
+    avatar:
+      type: string
